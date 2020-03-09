@@ -3,7 +3,7 @@
  */
 package toDoProject;
 
-public class Library {
+public class MainClass {
     public static void main(String[] string) {
         System.out.println("Hello");
     }

@@ -5,13 +5,15 @@ package toDoProject;
 
 import org.junit.Test;
 
-import toDoProject.Library;
+import toDoProject.MainClass;
 
 import static org.junit.Assert.*;
 
-public class LibraryTest {
+public class MainClassTest {
     @Test public void main() {
-        Library classUnderTest = new Library();
+        MainClass classUnderTest = new MainClass();
+        
+        classUnderTest.main(null);
         //assertTrue("someLibraryMethod should return 'true'", classUnderTest.main("teste aaa"));
     }
 }
